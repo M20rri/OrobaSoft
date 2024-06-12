@@ -16,8 +16,7 @@ builder.Services.AddDbContext<InvoiceDbContext>(options =>
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IRepository<Invoice>, Repository<Invoice>>();
 builder.Services.AddScoped<IRepository<InvoiceItem>, Repository<InvoiceItem>>();
-builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

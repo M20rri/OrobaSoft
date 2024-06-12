@@ -39,7 +39,6 @@ namespace OrobaSoft.UI.Controllers
         {
             if (!ModelState.IsValid) return View(invoiceDto);
              await _invoiceService.CreateInvoice(invoiceDto);
-            //return RedirectToAction(nameof(Index));
             return Json(invoiceDto);
         }
 

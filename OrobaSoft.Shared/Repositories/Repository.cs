@@ -13,11 +13,6 @@ public class Repository<T> : IRepository<T> where T : class
         _context = context;
     }
 
-    //public async Task<IEnumerable<T>> GetAll()
-    //{
-    //    return await _context.Set<T>().ToListAsync();
-    //} 
-
     public async Task<IEnumerable<T>> GetAll(params Expression<Func<T, object>>[] includeProperties)
     {
         IQueryable<T> query = _context.Set<T>();

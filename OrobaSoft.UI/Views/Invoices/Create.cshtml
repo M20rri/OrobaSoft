@@ -9,11 +9,11 @@
 
     <div class="form-group">
         <label id="CustomerNameLbl" class="control-label"></label>
-        <input id="CustomerName" name="CustomerName" class="form-control" placeholder="Customer Name" />
+        <input id="CustomerName" name="CustomerName" class="form-control" placeholder="Customer Name" required/>
     </div>
     <div class="form-group">
         <label id="InvoiceDatelbl" class="control-label"></label>
-        <input id="InvoiceDate" name="InvoiceDate" class="form-control" placeholder="Invoice Date" type="datetime-local" />
+        <input id="InvoiceDate" name="InvoiceDate" class="form-control" placeholder="Invoice Date" type="datetime-local" required />
     </div>
     <hr />
     <div class="card" id="itemsContainer">
@@ -23,11 +23,11 @@
         <div class="card-body">
             <div class="item">
                 <label>Description:</label>
-                <input type="text" name="Items[0].Description" class="form-control" />
+                <input type="text" name="Items[0].Description" class="form-control" required />
                 <label>Unit Price:</label>
-                <input type="number" name="Items[0].UnitPrice" class="form-control" />
+                <input type="number" name="Items[0].UnitPrice" class="form-control" required />
                 <label>Quantity:</label>
-                <input type="number" name="Items[0].Quantity" class="form-control" />
+                <input type="number" name="Items[0].Quantity" class="form-control" required />
             </div>          
         </div>
         <hr />
@@ -46,19 +46,7 @@
 
     <script>
         function addItem() {
-            // const itemContainer = document.createElement('div');
-            // itemContainer.classList.add('item');
-            // const index = document.querySelectorAll('.item').length;
-            // itemContainer.innerHTML = `
-            //                             <label>Description:</label>
-            //                             <input type="text" name="Items[${index}].Description" class="form-control" />
-            //                             <label>Unit Price:</label>
-            //                             <input type="number" name="Items[${index}].UnitPrice" class="form-control" />
-            //                             <label>Quantity:</label>
-            //                             <input type="number" name="Items[${index}].Quantity" class="form-control" />
-            //                         `;
-            // document.getElementById('itemsContainer').appendChild(itemContainer);
-
+            
             // Get the container where items are added
             var itemsContainer = document.querySelector('#itemsContainer .card-body');
 
@@ -91,6 +79,11 @@
             console.log('Save Item');
             // Get form element
             var form = document.getElementById('invoiceForm');
+
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
 
             console.log('form', form)
 

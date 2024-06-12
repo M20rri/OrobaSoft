@@ -11,36 +11,7 @@ namespace OrobaSoft.API.Controllers;
 public class InvoicesController : ControllerBase
 {
     private readonly IUnitOfWork _unitOfWork;
-    private readonly IMapper _mapper;
-
-    public InvoicesController(IUnitOfWork unitOfWork, IMapper mapper)
-    {
-        _unitOfWork = unitOfWork;
-        _mapper = mapper;
-    }
-
-    //[HttpPost]
-    //public async Task<IActionResult> CreateInvoice([FromBody] InvoiceDto invoiceDto)
-    //{
-    //    if (invoiceDto == null) return BadRequest("Invoice data is null.");
-
-    //    var invoice = _mapper.Map<Invoice>(invoiceDto);
-    //    await _unitOfWork.Invoices.Add(invoice);
-    //    await _unitOfWork.Complete();
-
-    //    var createdInvoice = _mapper.Map<InvoiceDto>(invoice);
-    //    return CreatedAtAction(nameof(GetInvoiceById), new { id = createdInvoice.Id }, createdInvoice);
-    //}
-
-    //[HttpGet("{id}")]
-    //public async Task<IActionResult> GetInvoiceById(int id)
-    //{
-    //    var invoice = await _unitOfWork.Invoices.GetById(id);
-    //    if (invoice == null) return NotFound();
-
-    //    var invoiceDto = _mapper.Map<InvoiceDto>(invoice);
-    //    return Ok(invoiceDto);
-    //}
+    public InvoicesController(IUnitOfWork unitOfWork) => _unitOfWork = unitOfWork;
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
