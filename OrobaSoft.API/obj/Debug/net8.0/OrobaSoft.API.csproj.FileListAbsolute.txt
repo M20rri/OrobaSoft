@@ -138,3 +138,4 @@ C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.API\obj\Debug\net8.0\refint\Or
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.API\obj\Debug\net8.0\OrobaSoft.API.pdb
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.API\obj\Debug\net8.0\OrobaSoft.API.genruntimeconfig.cache
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.API\obj\Debug\net8.0\ref\OrobaSoft.API.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.API\obj\Debug\net8.0\OrobaSoft.API.sourcelink.json

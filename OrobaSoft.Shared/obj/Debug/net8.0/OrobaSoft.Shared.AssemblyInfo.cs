@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrobaSoft.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b620b9b8e6babb348ef02b6b108719c556b7341")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrobaSoft.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrobaSoft.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

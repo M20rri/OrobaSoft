@@ -10,3 +10,4 @@ C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaS
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\refint\OrobaSoft.Shared.dll
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.pdb
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\ref\OrobaSoft.Shared.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.sourcelink.json

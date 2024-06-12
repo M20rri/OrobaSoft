@@ -35,6 +35,7 @@
 
     <button type="button" onclick="addItem()" class="btn btn-primary">Add Item</button>
     <button type="button" class="btn btn-success" onclick="SaveItem()">Save</button>
+    <a href="@Url.Action("Index")" class="btn btn-warning">Back to List</a>
 </form>
 
 @section Scripts {
@@ -135,6 +136,8 @@
                 .then(response => response.json())
                 .then(data => {
                     console.log('Success:', data);
+                    var url = '@Url.Action("Index", "Invoices")';
+                    window.location.href = url;
                     // Handle success actions, such as showing a success message or redirecting
                 })
                 .catch((error) => {

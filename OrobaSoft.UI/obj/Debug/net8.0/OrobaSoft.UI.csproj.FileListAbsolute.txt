@@ -72,3 +72,4 @@ C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.UI\obj\Debug\net8.0\refint\Oro
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.UI\obj\Debug\net8.0\OrobaSoft.UI.pdb
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.UI\obj\Debug\net8.0\OrobaSoft.UI.genruntimeconfig.cache
 C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.UI\obj\Debug\net8.0\ref\OrobaSoft.UI.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.UI\obj\Debug\net8.0\OrobaSoft.UI.sourcelink.json

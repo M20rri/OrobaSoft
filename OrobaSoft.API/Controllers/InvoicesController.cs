@@ -108,31 +108,6 @@ public class InvoicesController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = invoice.Id }, invoiceDto);
     }
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, [FromBody] InvoiceDto invoiceDto)
-    {
-        if (id != invoiceDto.Id || !ModelState.IsValid) return BadRequest(ModelState);
-
-        var invoice = await _unitOfWork.Invoices.GetById(id);
-        if (invoice == null) return NotFound();
-
-        invoice.CustomerName = invoiceDto.CustomerName;
-        invoice.InvoiceDate = invoiceDto.InvoiceDate;
-        invoice.Items = invoiceDto.Items.Select(item => new InvoiceItem
-        {
-            Id = item.Id,
-            Description = item.Description,
-            UnitPrice = item.UnitPrice,
-            Quantity = item.Quantity,
-            InvoiceId = id
-        }).ToList();
-
-        _unitOfWork.Invoices.Update(invoice);
-        await _unitOfWork.Complete();
-
-        return NoContent();
-    }
-
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {

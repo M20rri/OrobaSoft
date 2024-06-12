@@ -38,23 +38,9 @@ namespace OrobaSoft.UI.Controllers
         public async Task<IActionResult> Create([FromBody] InvoiceDto invoiceDto)
         {
             if (!ModelState.IsValid) return View(invoiceDto);
-            await _invoiceService.CreateInvoice(invoiceDto);
-            return RedirectToAction(nameof(Index));
-        }
-
-        public async Task<IActionResult> Edit(int id)
-        {
-            var invoice = await _invoiceService.GetInvoiceById(id);
-            if (invoice == null) return NotFound();
-            return View(invoice);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Edit(int id, InvoiceDto invoiceDto)
-        {
-            if (id != invoiceDto.Id || !ModelState.IsValid) return View(invoiceDto);
-            await _invoiceService.UpdateInvoice(id, invoiceDto);
-            return RedirectToAction(nameof(Index));
+             await _invoiceService.CreateInvoice(invoiceDto);
+            //return RedirectToAction(nameof(Index));
+            return Json(invoiceDto);
         }
 
         public async Task<IActionResult> Delete(int id)
@@ -68,7 +54,7 @@ namespace OrobaSoft.UI.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _invoiceService.DeleteInvoice(id);
-            return RedirectToAction(nameof(Index));
+            return Json(id);
         }
     }
 }

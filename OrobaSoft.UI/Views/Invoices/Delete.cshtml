@@ -2,11 +2,14 @@
 @model InvoiceDto
 @{
     Layout = "_Layout";
+    var itemId = Model.Id;
 }
 <h2>Delete Invoice</h2>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
+    <input type="hidden" id="itemId" value="@itemId" /
+    
     <h4>Invoice</h4>
     <hr />
     <dl class="row">
@@ -50,6 +53,35 @@
 
 <form asp-action="DeleteConfirmed">
     <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Delete</button> |
+    <button type="button" class="btn btn-danger" onclick="DeleteItem()">Delete</button> |
     <a href="@Url.Action("Index")">Back to List</a>
 </form>
+
+@section Scripts{
+    <script>
+        function DeleteItem(){
+
+            var itemId = document.getElementById("itemId").value;
+            console.log('itemId', itemId);
+
+            // Send data to the server using fetch
+            fetch(`/Invoices/Delete/${itemId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    var url = '@Url.Action("Index", "Invoices")';
+                    window.location.href = url;
+                    // Handle success actions, such as showing a success message or redirecting
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    // Handle error actions, such as showing an error message
+                });
+        }
+    </script>
+}

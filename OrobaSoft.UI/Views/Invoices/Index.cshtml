@@ -24,7 +24,6 @@
                 <td>@invoice.CustomerName</td>
                 <td>@invoice.InvoiceDate.ToShortDateString()</td>
                 <td>
-                    <a href="@Url.Action("Edit", new { id = invoice.Id })">Edit</a> |
                     <a href="@Url.Action("Details", new { id = invoice.Id })">Details</a> |
                     <a href="@Url.Action("Delete", new { id = invoice.Id })">Delete</a>
                 </td>

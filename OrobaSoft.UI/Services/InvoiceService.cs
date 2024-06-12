@@ -25,11 +25,6 @@ public class InvoiceService
         await _httpClient.PostAsJsonAsync("api/invoices", invoiceDto);
     }
 
-    public async Task UpdateInvoice(int id, InvoiceDto invoiceDto)
-    {
-        await _httpClient.PutAsJsonAsync($"api/invoices/{id}", invoiceDto);
-    }
-
     public async Task DeleteInvoice(int id)
     {
         await _httpClient.DeleteAsync($"api/invoices/{id}");
