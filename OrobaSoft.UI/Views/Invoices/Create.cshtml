@@ -1,0 +1,146 @@
+﻿@using OrobaSoft.Shared.DTOs
+@model InvoiceDto
+@{
+    Layout = "_Layout";
+}
+<h2>Create Invoice</h2>
+
+<form id="invoiceForm">
+
+    <div class="form-group">
+        <label id="CustomerNameLbl" class="control-label"></label>
+        <input id="CustomerName" name="CustomerName" class="form-control" placeholder="Customer Name" />
+    </div>
+    <div class="form-group">
+        <label id="InvoiceDatelbl" class="control-label"></label>
+        <input id="InvoiceDate" name="InvoiceDate" class="form-control" placeholder="Invoice Date" type="datetime-local" />
+    </div>
+    <hr />
+    <div class="card" id="itemsContainer">
+        <div class="card-header">
+            Items
+        </div>
+        <div class="card-body">
+            <div class="item">
+                <label>Description:</label>
+                <input type="text" name="Items[0].Description" class="form-control" />
+                <label>Unit Price:</label>
+                <input type="number" name="Items[0].UnitPrice" class="form-control" />
+                <label>Quantity:</label>
+                <input type="number" name="Items[0].Quantity" class="form-control" />
+            </div>          
+        </div>
+        <hr />
+    </div>
+
+    <button type="button" onclick="addItem()" class="btn btn-primary">Add Item</button>
+    <button type="button" class="btn btn-success" onclick="SaveItem()">Save</button>
+</form>
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function addItem() {
+            // const itemContainer = document.createElement('div');
+            // itemContainer.classList.add('item');
+            // const index = document.querySelectorAll('.item').length;
+            // itemContainer.innerHTML = `
+            //                             <label>Description:</label>
+            //                             <input type="text" name="Items[${index}].Description" class="form-control" />
+            //                             <label>Unit Price:</label>
+            //                             <input type="number" name="Items[${index}].UnitPrice" class="form-control" />
+            //                             <label>Quantity:</label>
+            //                             <input type="number" name="Items[${index}].Quantity" class="form-control" />
+            //                         `;
+            // document.getElementById('itemsContainer').appendChild(itemContainer);
+
+            // Get the container where items are added
+            var itemsContainer = document.querySelector('#itemsContainer .card-body');
+
+            // Get the current number of items
+            var itemCount = itemsContainer.getElementsByClassName('item').length;
+
+            // Clone the first item
+            var newItem = itemsContainer.children[0].cloneNode(true);
+
+            // Update the names of the inputs in the new item
+            var inputs = newItem.getElementsByTagName('input');
+            for (var i = 0; i < inputs.length; i++) {
+                var name = inputs[i].getAttribute('name');
+                var newName = name.replace(/\[\d+\]/, '[' + itemCount + ']');
+                inputs[i].setAttribute('name', newName);
+                inputs[i].value = ''; // Clear the value of the new input
+            }
+
+            // Create a new <hr> element
+            var hr = document.createElement('hr');
+
+            // Append the <hr> and the new item to the container
+            itemsContainer.appendChild(hr);
+
+            // Append the new item to the container
+            itemsContainer.appendChild(newItem);
+        }
+
+        function SaveItem() {
+            console.log('Save Item');
+            // Get form element
+            var form = document.getElementById('invoiceForm');
+
+            console.log('form', form)
+
+            // Get the values of the form inputs
+            var customerName = form.querySelector('#CustomerName').value;
+            var invoiceDate = form.querySelector('#InvoiceDate').value;
+
+            // You can now use these values as needed
+            console.log('Customer Name:', customerName);
+            console.log('Invoice Date:', invoiceDate);
+
+            // If you want to process items added dynamically, retrieve them as well
+            var items = [];
+            var itemElements = form.querySelectorAll('.item');
+            itemElements.forEach(function (itemElement, index) {
+                var description = itemElement.querySelector('input[name="Items[' + index + '].Description"]').value;
+                var unitPrice = itemElement.querySelector('input[name="Items[' + index + '].UnitPrice"]').value;
+                var quantity = itemElement.querySelector('input[name="Items[' + index + '].Quantity"]').value;
+                items.push({
+                    Description: description,
+                    UnitPrice: unitPrice,
+                    Quantity: quantity
+                });
+            });
+
+            console.log('Items:', items);
+
+
+            var data = {
+                CustomerName: customerName,
+                InvoiceDate: invoiceDate,
+                Items: items
+            };
+
+            // Send data to the server using fetch
+            fetch('/Invoices/Create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    // Handle success actions, such as showing a success message or redirecting
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    // Handle error actions, such as showing an error message
+                });
+        }
+    </script>
+}

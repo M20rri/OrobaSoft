@@ -1,0 +1,12 @@
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\bin\Debug\net8.0\OrobaSoft.Shared.deps.json
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\bin\Debug\net8.0\OrobaSoft.Shared.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\bin\Debug\net8.0\OrobaSoft.Shared.pdb
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.csproj.AssemblyReference.cache
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.AssemblyInfoInputs.cache
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.AssemblyInfo.cs
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\refint\OrobaSoft.Shared.dll
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\OrobaSoft.Shared.pdb
+C:\Users\Mahmoud\source\repos\OrobaSoft\OrobaSoft.Shared\obj\Debug\net8.0\ref\OrobaSoft.Shared.dll

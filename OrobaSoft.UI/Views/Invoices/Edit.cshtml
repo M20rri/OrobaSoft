@@ -1,0 +1,56 @@
+﻿@using OrobaSoft.Shared.DTOs
+@model InvoiceDto
+@{
+    Layout = "_Layout";
+}
+<h2>Edit Invoice</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="CustomerName" class="control-label"></label>
+        <input asp-for="CustomerName" class="form-control" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InvoiceDate" class="control-label"></label>
+        <input asp-for="InvoiceDate" class="form-control" />
+        <span asp-validation-for="InvoiceDate" class="text-danger"></span>
+    </div>
+    <div id="itemsContainer">
+        <h3>Items</h3>
+        @for (int i = 0; i < Model.Items.Count; i++)
+        {
+            <div class="item">
+                <input type="hidden" name="Items[@i].Id" value="@Model.Items[i].Id" />
+                <label>Description:</label>
+                <input type="text" name="Items[@i].Description" value="@Model.Items[i].Description" class="form-control" />
+                <label>Unit Price:</label>
+                <input type="number" name="Items[@i].UnitPrice" value="@Model.Items[i].UnitPrice" class="form-control" />
+                <label>Quantity:</label>
+                <input type="number" name="Items[@i].Quantity" value="@Model.Items[i].Quantity" class="form-control" />
+            </div>
+        }
+    </div>
+    <button type="button" onclick="addItem()">Add Item</button>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addItem() {
+            const itemContainer = document.createElement('div');
+            itemContainer.classList.add('item');
+            const index = document.querySelectorAll('.item').length;
+            itemContainer.innerHTML = `
+                        <label>Description:</label>
+                        <input type="text" name="Items[${index}].Description" class="form-control" />
+                        <label>Unit Price:</label>
+                        <input type="number" name="Items[${index}].UnitPrice" class="form-control" />
+                        <label>Quantity:</label>
+                        <input type="number" name="Items[${index}].Quantity" class="form-control" />
+                    `;
+            document.getElementById('itemsContainer').appendChild(itemContainer);
+        }
+    </script>
+}

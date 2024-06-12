@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\invoices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.shared\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|solutionrelative:orobasoft.shared\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF3B03E-FD49-4FB0-962E-81321BC08099}|OrobaSoft.API\\OrobaSoft.API.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.api\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF3B03E-FD49-4FB0-962E-81321BC08099}|OrobaSoft.API\\OrobaSoft.API.csproj|solutionrelative:orobasoft.api\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.shared\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|solutionrelative:orobasoft.shared\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.shared\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|solutionrelative:orobasoft.shared\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\invoices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\invoices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\invoices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.shared\\dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9272D7D5-A9FD-40EA-8F0F-7698FF93D6CD}|OrobaSoft.Shared\\OrobaSoft.Shared.csproj|solutionrelative:orobasoft.shared\\dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\invoices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\invoices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\invoices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|c:\\users\\mahmoud\\source\\repos\\orobasoft\\orobasoft.ui\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AF60FBA-6223-468C-B763-A7C677AAAC07}|OrobaSoft.UI\\OrobaSoft.UI.csproj|solutionrelative:orobasoft.ui\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.API\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.API\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.API\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "OrobaSoft.API\\Controllers\\InvoicesController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAewFUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:27:49.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Details.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Invoices\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Details.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Invoices\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:28:24.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Error.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:27:59.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Create.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Invoices\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Create.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Invoices\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:27:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Invoices\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Delete.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Invoices\\Delete.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:30:02.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "OrobaSoft.UI\\Controllers\\InvoicesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAD4vxsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:25:18.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.Shared\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "OrobaSoft.Shared\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:30:44.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\DTOs\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.Shared\\DTOs\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\DTOs\\InvoiceDto.cs",
+              "RelativeToolTip": "OrobaSoft.Shared\\DTOs\\InvoiceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:01:33.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Index.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Invoices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Index.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Invoices\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:28:26.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\DTOs\\InvoiceItemDto.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.Shared\\DTOs\\InvoiceItemDto.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\DTOs\\InvoiceItemDto.cs",
+              "RelativeToolTip": "OrobaSoft.Shared\\DTOs\\InvoiceItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:25:52.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.Shared\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.Shared\\Repositories\\Repository.cs",
+              "RelativeToolTip": "OrobaSoft.Shared\\Repositories\\Repository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:30:48.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:35:19.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:29:57.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\Invoices\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\Invoices\\Edit.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\Invoices\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:30:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAADIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:31:15.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:34:18.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:27:58.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Program.cs",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Program.cs",
+              "RelativeToolTip": "OrobaSoft.UI\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T20:24:20.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "OrobaSoft.UI\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Mahmoud\\source\\repos\\OrobaSoft\\OrobaSoft.UI\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "OrobaSoft.UI\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T20:28:09.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

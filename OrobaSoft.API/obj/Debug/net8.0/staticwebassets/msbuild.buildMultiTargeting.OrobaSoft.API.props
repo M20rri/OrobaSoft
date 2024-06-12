@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OrobaSoft.API.props" />
+</Project>
